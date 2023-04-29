@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Page Body Styles */
+
+body {
+	content: none;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	bottom: 0;
+	right: 0;
+	background-image: url("gardening-concept.jpg");
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* Aside Styles */
+
+
+
+

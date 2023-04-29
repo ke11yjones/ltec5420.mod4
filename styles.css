@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+p {
+	color: darkblue
+}
+
+/* Table Style */
+table {
+	body-height: 100vh;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	font-family: sans-serif;
+}
+
+th{
+	background-color:yellowgreen;
+	color: darkblue;
+}
+
+th, td{
+	padding: .8rem;
+	font-size: 1.4rem;
+	border: 2px solid darkblue;
+	border-collapse: collapse;
+}
+
+tbody{
+	background-color: yellowgreen;
+	color: darkblue;
+	border: solid;
+}
+
+
+*{
+margin: 0;
+padding: 0;
+font-family:  Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'
+}
+
+.container {
+	margin: 30px;
+	padding: 0 1em
+}
+
+
+
+
+
+nav {
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 5px 10px black;
+}
+nav {
+	flex: 1;
+	text-align: left;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+nav ul li a{
+	color: darkblue;
+	text-decoration: none
+}
+
+.navbar {
+		background: lightyellow;
+	
+	}
+
+/* Article  Styles */
+article {	
+   clear: both;			   
+   padding: 30px 20px 10px 20px;
+}
+
+article header {
+	margin: 20px auto;	
+	width: 70%;
+}
+
+article header h1 {
+	color: darkblue;	
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 3em;
+	text-align: center;
+}
+
+article::after {
+   clear: both;	
+   content: "";
+   display: table;
+}
+
+*{
+	text-align: center;
+}
+
+
+/* HTML Styles */
+
+
+.flex-container {
+  display:flex;
+  background-color: "";
+  
+}
+
+.flex-container > div {
+  background-color: "";
+  margin: 10px;
+  padding:20px;
+  font-size: 30px; 
+}
+
+
+/* HTML Styles */
+html {
+ background-image: image url("gardening-concept.jpg");
+
+}
+
+
+h2 {
+	color: darkblue;
+}
+
+p {
+	font-size: 1.5em
+}
+
+h1 {
+  text-shadow: 5px 2px #00ff00;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	color: darkblue;
+	text-shadow: 3px 1px #00ff00;
+	font-size: 3em
+}
+
+ul {
+ 
+ font-size: 1.5em;
+ color: darkblue;
+ list-style: none;
+}
+
+/* Footer Styles */
+footer {
+	align-content: center;
+	}
